@@ -1,0 +1,2 @@
+<member-list category="hero" members="{{heroes}}"></member-list>
+<view wx:if="{{hasReachedEnd && count > 0}}" class="has-reached-end-info">已经到达底部了 ～</view>

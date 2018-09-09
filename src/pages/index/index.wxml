@@ -1,0 +1,5 @@
+<!-- index.wxml -->
+<view class="container">
+  <button type="primary" bind:tap="goToHeroListPage">前往英雄列表页</button>
+  <button type="warn" bind:tap="goToVillainListPage">前往敌人列表页</button>
+</view>

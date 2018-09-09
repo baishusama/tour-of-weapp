@@ -1,0 +1,9 @@
+<view class="member {{category}}" wx:for="{{members}}" wx:for-item="member" wx:key="{{category}}-{{member.id}}">
+  <view class="member-index">{{member.id}}</view>
+  <view class="member-avatar">
+    <!-- ImoNote: since unable to access s3.amazonaws.com, use local images -->
+    <image src="../../assets/img/{{category}}{{member.id % 10}}.jpg" />
+  </view>
+  <view class="member-name">{{member.name}}</view>
+  <!-- <view class="member-email">{{member.email}}</view> -->
+</view>

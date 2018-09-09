@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "敌人列表",
+  "navigationBarBackgroundColor": "#E64340",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "member-list": "../../components/member-list/member-list/"
+  }
+}

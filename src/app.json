@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/hero-list/hero-list",
+    "pages/villain-list/villain-list",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Hero vs Villain",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 250
+  }
+}

@@ -1,0 +1,4 @@
+.has-reached-end-info {
+  color: #e64340;
+  background-color: white;
+}
