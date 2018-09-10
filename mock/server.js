@@ -36,6 +36,7 @@ server.use(middlewares);
 server.use(jsonServer.bodyParser);
 // 路由别名
 server.use(
+  // FIXME: need 不需要在乎参数顺序的写法：
   jsonServer.rewriter({
     '/api/*': '/$1',
     '/:resource/\\?offset=:offset&limit=:limit':
