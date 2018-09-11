@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/toast-list/toast-list",
     "pages/index/index",
     "pages/hero-list/hero-list",
     "pages/villain-list/villain-list",

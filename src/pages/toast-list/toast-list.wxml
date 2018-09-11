@@ -1,0 +1,4 @@
+<view>
+  <button class="primary">显示成功提示</button>
+  <button class="warn">显示失败提示</button>
+</view>
